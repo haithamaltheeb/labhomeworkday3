@@ -1,0 +1,51 @@
+.container{
+    font-family: sans-serif;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: rgb(180, 186, 191);
+}
+
+.profileimage{
+    
+    border-radius: 10px;
+}
+
+.about{
+    max-width: 600px;
+  line-height: 1.6;
+}
+
+#title{
+    background-color: rgb(179, 196, 211);
+    color: blue;
+}
+
+.footer{
+    background-color: rgb(143, 156, 167);
+}
+
+#myname{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#body{
+    margin: 15px;
+}
+
+nav{
+    display: flex;
+    height: 50px;
+    background-color:#a2cbb6 ;
+    font-size: 20px;
+    margin: 10px;
+    color: #59400b;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav > div:last-child {
+  margin-left: auto;
+}
